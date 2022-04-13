@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SigninActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#E53935"
+        android:text="Welcome to Android Class "
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/error_msg"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFB6C1"
+        android:text=" Layouts and View"
+        android:textSize="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/error1_msg"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:background="#FF018786"
+        android:rotationX="8"
+        android:text="Join Now" />
+
+
+
+</LinearLayout>
